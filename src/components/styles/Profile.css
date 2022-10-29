@@ -1,0 +1,23 @@
+#profile__ctn {
+    margin: 5rem 0;
+    position: relative;
+}
+#share__icon {
+    position: absolute;
+    right: 0;
+}
+
+#profile__img {
+    width: 10rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+    margin-bottom: 2rem;
+}
+
+#profile__info p {
+    font-weight: 700;
+    font-size: 2rem;
+}

@@ -1,0 +1,30 @@
+#footer {
+margin-top: 10rem;
+border-top: 1px solid  #EAECF0;
+padding: 3rem 0;
+text-align: left;
+}
+
+#footer img:first-of-type {
+    height: 2.4rem;
+}
+#footer img:last-of-type {
+    height: 3rem;
+}
+#footer p {
+    /* margin: 1rem 0; */
+    color:  #333333;
+}
+
+@media screen and (min-width: 900px) {
+    #footer {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    #footer p {
+        margin: 1rem 0;
+    }
+}

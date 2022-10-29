@@ -1,0 +1,35 @@
+.link {
+    display: block;
+    text-decoration: none;
+    background-color: #EAECF0;
+    color: #101828;
+    margin: 2rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    transition: background-color 300ms linear;
+    -webkit-transition: background-color 300ms linear;
+    -moz-transition: background-color 300ms linear;
+    -ms-transition: background-color 300ms linear;
+    -o-transition: background-color 300ms linear;
+}
+.link:hover {
+    background-color: #d8deea;
+}
+
+.link span {
+    display: block;
+    margin-bottom: .5rem;
+}
+
+.link span:nth-of-type(2) {
+    font-size: 1.2rem;
+}
+
+#social__links a {
+    display: inline-block;
+    margin: 0 1rem;
+}
