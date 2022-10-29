@@ -53,7 +53,7 @@ const Links = () => {
         }
         <div id="social__links">
             <a href="slack.com"><img src={slackLogo} alt="slack"/></a>
-            <a href="slack.com"><img src={githubLogo} alt="github"/></a>
+            <a href="https://github.com/VeedJohnson"><img src={githubLogo} alt="github"/></a>
         </div>
     </div>
   )
