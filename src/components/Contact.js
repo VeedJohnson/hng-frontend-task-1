@@ -37,7 +37,7 @@ const Contact = () => {
                         <input type="checkbox" id="checkbox" required/>
                         <label htmlFor='checkbox'>You agree to providing your data to Veed who may contact you.</label>
                     </div>
-                    <button>Send message</button>
+                    <button id="btn__submit">Send message</button>
                 </form>
             </div>
 
