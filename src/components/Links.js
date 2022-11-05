@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import LinkCard from './resusable/LinkCard';
 import "./styles/LinkCard.css"
 
@@ -51,6 +52,11 @@ const Links = () => {
                 />
             ))
         }
+
+        <Link to="/contact" className="link">
+            <span>Contact Me</span>
+        </Link>
+
         <div id="social__links">
             <a href="slack.com"><img src={slackLogo} alt="slack"/></a>
             <a href="https://github.com/VeedJohnson"><img src={githubLogo} alt="github"/></a>
