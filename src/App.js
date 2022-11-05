@@ -1,14 +1,18 @@
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Home, Contact } from './components';
 import './App.css';
-import { Profile, Links, Footer } from "./components/index";
 
 function App() {
-  return (
-    <div className="App">
-        <Profile />
-        <Links />
-        <Footer />
-    </div>
-  );
+    return (
+        <Router>
+            <div className="App">
+                <Routes>
+                    <Route exact path="/"  element={<Home />}/>
+                    <Route path="/contact" element={<Contact />}/>
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;
