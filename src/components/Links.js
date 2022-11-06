@@ -53,7 +53,7 @@ const Links = () => {
             ))
         }
 
-        <Link to="/contact" className="link">
+        <Link to="/contact" className="link" id="contact">
             <span>Contact Me</span>
         </Link>
 
